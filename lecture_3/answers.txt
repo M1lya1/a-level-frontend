@@ -1,0 +1,39 @@
+1.1
+2.2
+3.5
+4.3
+5.4
+6.5
+7.3
+8.4
+9.5
+10.7
+11.4
+12.5
+
+Задание 3
+function greeting (name) {
+        alert (` Hello. My name is ${name}. How are you? `);
+    }
+greeting('Valera');
+greeting('Anna');
+greeting('Alex');
+
+Задание 4
+const = lecture {
+    name: 'Alex',
+    age: 94,
+    isOld: true,   
+}
+console.log('lecture.name + 'visit lection on' + lecture.age');
+
+const = lecture {
+	stringType: `any word`,
+	booleanType: `true or false`,
+	numberType: `232`,
+	result: function() {
+		alert("show");
+	}
+};
+console.log(lecture.result);
+	
