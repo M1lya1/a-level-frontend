@@ -1,0 +1,15 @@
+1 a 2
+2 b 3
+3 c undefined
+4 a 2
+5 b 5
+6 c undefined
+7 a 7
+8 b 8
+9 c 6
+10 a 7
+11 b 8
+12 c 6
+13 a 2
+14 b 3
+15 c 6
