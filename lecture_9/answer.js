@@ -45,11 +45,4 @@ console.log(getNameOfDay(1,'ru'));
 //     Humburg: 'Germany'
 // };
 
-// for(let cities in citiesAndCountries) {
-//     console.log(cities : ${Odessa});
-//     }
-
-// function getKeyByValue(object, value) {
-// return Object.keys(object).find(key => object[key] === value);
-// }
-// console.log(getKeyByValue(citiesAndCountries, 'USA'));
+// 
