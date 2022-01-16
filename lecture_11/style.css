@@ -1,0 +1,72 @@
+
+*{
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+
+}
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    width: 100%;
+    max-width: 1000px;
+    padding: 30px 30px;
+    height: hv;
+}
+.navigation {
+    display: flex;
+    height: hv;
+    background-color:white;
+    width: 300px;
+    flex-direction: column;
+    list-style: none;
+    margin-top: 30px;
+    margin-right: 20px;
+}
+.nav_element {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    
+}
+.nav_element a {
+    text-align: center;
+    text-decoration: none;
+    justify-content: center;
+    color:rgb(134, 10, 10);
+    background-color: cyan;
+    border: 1px solid cyan;
+    border-radius: 3px;
+    padding: 15px 20px;
+    width: 60%;
+    transition: all 0.4s ease-in;
+}
+.nav_element a:hover,
+.nav_element a:focus {
+    background-color: rgb(151, 243, 128);
+}
+
+.content {
+    background-color: white;
+    max-width: 700px;
+    width: 100%;
+    height: hv;
+}
+.moto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.moto_title {
+    color: rgb(156, 207, 37);
+    font-size: 30px;
+    text-align: center;
+}
+.moto_img {
+    width: 600px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
