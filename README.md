@@ -20,3 +20,56 @@ strick mode 3 === 3;//true  3 === '3';//false 3 !== 3;/false
 loginal not !false//true и наоборот
 type coersion  string(4)//convert to string,  number("4")//convert to number
 type coervion:implict  5+"3"="53"; 5-"3"=2
+
+Лекция 5
+
+toLowerCase & toUpperCase все маленькие и болььшие символы
+includes проверяет наличие в строке символа
+indexOf number of index
+slice обрезает
+split делаем масив
+replace заменет значение
+toString переводит в строку
+toFixed округление
+Math.round Math.floor округление к большему и меньшему
+Math.pow Math.sqrt степень и корень
+Math.min math.max мин и макс значение
+
+Лекция 6
+Обьекты 
+const help = {
+  key = value
+  }
+this ключевое на даный обьект this.help
+object.propertyName
+object.method()
+delete help.key
+copy obj  let obj2 = obj1
+let obj2 = Object.asign({}, obj1)   or  obj2= {---obj1} /// spread
+configurable - логическое значение, указывает может ли быть изменено значение дескриптора и может ли свойство быть удалено из объекта (по умолчанию false);
+enumerable - логическое значение, если равно false, то свойство будет пропущено при перечислении всех свойства объекта (по умолчанию false);
+value - задает значение свойства (по умолчанию undefined);
+writable - логическое значение, указывает, может ли значение свойства быть изменено операцией присваивания (по умолчанию false);
+get - функция, возвращаемое значение которой будет возвращено в качестве значения свойства при его чтении;
+set - функция, которая вызывается в момент присваивания свойству нового значения и единственным параметром принимает присваиваемое значение.
+
+Object.getOwnPropertyDescriptor()
+Object.defineProperty()
+Object.keys()
+Object.assign() обьединение или спрэд
+
+Лекция 7 
+Массивы
+.lenght
+array[index]
+toString() v stroky
+join()
+push() unshift dobavle v array
+shift() pop() delete
+arr.concat spred
+slice вырезает часть
+splice
+includes
+find  dlya poiska
+some() every()
+sort() forEach() map() filter() reduce()
