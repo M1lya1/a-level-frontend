@@ -18,11 +18,15 @@ const user={
     name:'Jack',
     age: 18
 }
-Object.defineProperty(user, "Frase", {
-    value:`My name is ${user.name}, I am ${user.age}.`
-})
-Object.defineProperty(user, "number", {
-    value: user.age
+
+Object.defineProperty(user, 'toString', {
+    enumerable: false, // enumerable is 'false' by default
+    value: function () {
+        return 'My name is' + this.name + ', ' + 'I am ' + this.age;
+    }
 });
-console.log("String concatenation: " + user.Frase);
-console.log(user.number*10);
+
+
+for (var key in user) console.log(key);
+
+console.log('Hello! ' + user);
