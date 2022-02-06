@@ -1,12 +1,14 @@
-const vowel_count = string => [...string].filter(c => 'aeiou'.includes(c.toLowerCase())).length;
+const vowel_count = string => [...string].filter(c => 'aeiou'.includes(c.toLowerCase())).length; // could yo please describe each step in your approach?
 
 console.log(vowel_count('anladfadfh')); 
 
 
 
-const createArrayWithObjects=(name1, name2, ...name_n)=>{
-    let arr = [name1, name2, ...name_n]
-    let result = arr.forEach((el, index)=> console.log(`name: ${el}; id: ${index}`));
+const createArrayWithObjects=(...names)=>{ // in this case all arguments you get will store in the array 'names' 
+    let result = names.map((el, index)=> { // forEach doesn't return nothing
+        // you have to return objects
+        return {name: el, id: index}
+    });
     return result;
 }
 createArrayWithObjects('jae', 'anna', 'Dan', 'July');
